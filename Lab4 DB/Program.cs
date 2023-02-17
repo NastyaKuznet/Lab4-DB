@@ -6,7 +6,8 @@
         {
             PatternObjectDB patternBook = new PatternObjectDB("Book.json");
             ObjectDB[] books = LoadData.ReadObjectDB("books.csv", patternBook);
-
+            PatternObjectDB patternReader = new PatternObjectDB("Reader.json");
+            ObjectDB[] readers = LoadData.ReadObjectDB("readers.csv", patternReader);
         }
     }
 }
